@@ -1,13 +1,16 @@
-import { createElement } from "react";
-
-const HelloWorld =() => {
-  return createElement(
-    "div",
-    {className: "hello", id: "1"},
-    <p>
-      Hello Functional Component <span>This is a span</span>
-    </p>
-  );
+const CommonComponent =()=> {
+  return <p>This is a common component</p>;
 };
 
-export default HelloWorld;
+function App() {
+  return(
+    <div>
+      <h1>Hello React</h1>
+      <CommonComponent/>
+      <CommonComponent/>
+      <CommonComponent/>
+    </div>
+  );
+}
+
+export default App;
