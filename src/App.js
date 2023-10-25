@@ -1,9 +1,13 @@
-// function HelloWorld(){
-//   return <h1>Hello Functional Component</h1>
-// }
+import { createElement } from "react";
 
-const HelloWorld =()=>{
-  return <h1>Hello Arrow functional Component</h1>
-}
+const HelloWorld =() => {
+  return createElement(
+    "div",
+    {className: "hello", id: "1"},
+    <p>
+      Hello Functional Component <span>This is a span</span>
+    </p>
+  );
+};
 
 export default HelloWorld;
