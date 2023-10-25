@@ -1,16 +1,10 @@
-import ChildComponent from "./components/ChildComponent";
-
-const CommonComponent =()=> {
-  return <p>This is a common component</p>;
-};
+import TeacherPage from "./components/PropsConcept/Teachers";
 
 function App() {
-  return(
+  return (
     <div>
       <h1>Hello React</h1>
-      <CommonComponent/>
-      <CommonComponent/>
-      <ChildComponent/>
+      <TeacherPage />
     </div>
   );
 }
