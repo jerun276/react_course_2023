@@ -1,11 +1,9 @@
-import './App.css';
+import { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello react!!!</h1>
-    </div>
-  );
+class HelloWorld extends Component{
+  render(){
+    return <h1>Hello Class Based Component</h1>
+  }
 }
 
-export default App;
+export default HelloWorld;
