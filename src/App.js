@@ -1,9 +1,9 @@
-import { Component } from "react";
+// function HelloWorld(){
+//   return <h1>Hello Functional Component</h1>
+// }
 
-class HelloWorld extends Component{
-  render(){
-    return <h1>Hello Class Based Component</h1>
-  }
+const HelloWorld =()=>{
+  return <h1>Hello Arrow functional Component</h1>
 }
 
 export default HelloWorld;
